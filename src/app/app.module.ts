@@ -4,11 +4,8 @@ import { NgxPaginationModule } from 'ngx-pagination';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {HttpClientModule} from '@angular/common/http';
-import { EmpleadosComponent } from './empleados/empleados.component';
-import { NewEmpleadoComponent } from './new-empleado/new-empleado.component';
 import { ToastrModule } from 'ngx-toastr';
 import { ModalModule } from 'ngx-bootstrap/modal';
-import { EditEmpleadoComponent } from './editEmpleado/edit-empleado/edit-empleado.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
@@ -18,9 +15,6 @@ import { EditProductoComponent } from './edit-producto/edit-producto.component';
 @NgModule({
   declarations: [
     AppComponent,
-    EmpleadosComponent,
-    NewEmpleadoComponent,
-    EditEmpleadoComponent,
     ProductosComponent,
     NewProductoComponent,
     EditProductoComponent,

@@ -41,7 +41,7 @@
                 
                 <div class="form-group">
                     <label for="stock">Stock</label>
-                    <input type="text" class="form-control" id="stock" formControlName="stock" maxlength="1"
+                    <input type="text" class="form-control" id="stock" formControlName="stock" maxlength="1000"
                         (input)="updateNombreCounter()" (keypress)="onKeyPressTelefono($event)">
                     <div style="margin-left: 10px; font-size: 12px; color: #999999;">{{stock}} characters remaining</div>
                     <div *ngIf="newProductoForm.get('stock')?.invalid && newProductoForm.get('stock')?.touched">

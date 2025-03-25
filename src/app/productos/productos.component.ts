@@ -1,8 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { EmpleadoService } from '../services/empleado.service';
 import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
-import { NewEmpleadoComponent } from '../new-empleado/new-empleado.component';
-import { EditEmpleadoComponent } from '../editEmpleado/edit-empleado/edit-empleado.component';
 import axios from 'axios';
 import { ViewChild, TemplateRef } from '@angular/core';
 import { ProductoService } from '../services/producto.service';
